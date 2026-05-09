@@ -1,0 +1,23 @@
+{
+  "name": "vediotube",
+  "version": "1.0.0",
+  "description": "A project inspired by youtube",
+  "keywords": [
+    "Backend"
+  ],
+  "license": "ISC",
+  "author": "Chirag Bhadani",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.6.2",
+    "nodemon": "^3.1.14",
+    "prettier": "^3.8.3"
+  }
+}
